@@ -33,12 +33,13 @@
             this.Mistnosti = new System.Windows.Forms.TabPage();
             this.Elektromery = new System.Windows.Forms.TabPage();
             this.tabControl1.SuspendLayout();
+            this.Mistnosti.SuspendLayout();
             this.SuspendLayout();
             // 
             // lastUpdate
             // 
             this.lastUpdate.AutoSize = true;
-            this.lastUpdate.Location = new System.Drawing.Point(12, 245);
+            this.lastUpdate.Location = new System.Drawing.Point(16, 383);
             this.lastUpdate.Name = "lastUpdate";
             this.lastUpdate.Size = new System.Drawing.Size(0, 13);
             this.lastUpdate.TabIndex = 8;
@@ -50,15 +51,16 @@
             this.tabControl1.Location = new System.Drawing.Point(8, 12);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(270, 255);
+            this.tabControl1.Size = new System.Drawing.Size(270, 436);
             this.tabControl1.TabIndex = 9;
             // 
             // Mistnosti
             // 
+            this.Mistnosti.Controls.Add(this.lastUpdate);
             this.Mistnosti.Location = new System.Drawing.Point(4, 22);
             this.Mistnosti.Name = "Mistnosti";
             this.Mistnosti.Padding = new System.Windows.Forms.Padding(3);
-            this.Mistnosti.Size = new System.Drawing.Size(262, 229);
+            this.Mistnosti.Size = new System.Drawing.Size(262, 410);
             this.Mistnosti.TabIndex = 0;
             this.Mistnosti.Text = "Místnosti";
             this.Mistnosti.UseVisualStyleBackColor = true;
@@ -68,7 +70,7 @@
             this.Elektromery.Location = new System.Drawing.Point(4, 22);
             this.Elektromery.Name = "Elektromery";
             this.Elektromery.Padding = new System.Windows.Forms.Padding(3);
-            this.Elektromery.Size = new System.Drawing.Size(262, 229);
+            this.Elektromery.Size = new System.Drawing.Size(262, 160);
             this.Elektromery.TabIndex = 1;
             this.Elektromery.Text = "Elektroměry";
             this.Elektromery.UseVisualStyleBackColor = true;
@@ -77,15 +79,15 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(290, 267);
+            this.ClientSize = new System.Drawing.Size(294, 460);
             this.Controls.Add(this.tabControl1);
-            this.Controls.Add(this.lastUpdate);
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.tabControl1.ResumeLayout(false);
+            this.Mistnosti.ResumeLayout(false);
+            this.Mistnosti.PerformLayout();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
